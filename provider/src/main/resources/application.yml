@@ -1,0 +1,13 @@
+server:
+  port: 8001
+
+dubbo:
+  application:
+    name: provider
+    qosPort: 22222
+  protocol:
+    name: dubbo
+    port: 20880
+  registry:
+    protocol: multicast
+    address: 224.5.6.7:1234
